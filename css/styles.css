@@ -1,0 +1,491 @@
+/* Body */
+body {
+    margin: 0;
+    background-color: #000;
+    position: relative;
+    background-image: url("../img/bodyBG.jpg");
+    background-size: cover;
+}
+/* Header */
+
+nav img {
+    width: 206px;
+    height: 44px;
+} 
+
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+}
+
+.nav-link {
+    font-size: 300%;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("../img/menu.png")
+}
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #ff4800;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar {
+    background-color: #000;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.hideLogo{
+    display: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    width: 100%;
+    background-image: url("../img/barBackground.jpg");
+    background-color: #000;
+    background-size: cover;
+    padding: 150px 300px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.bolden {
+    color: #ff4800;
+    font-size: 150%;
+}
+
+.jumbotron h1 {
+    font-size: 80px;
+}
+.jumbotron p {
+    font-size: 120%;
+}
+
+/* Drink section */
+
+.drinkHolder, .menuHolder {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.drinks, .menu, .music {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.drinks img {
+    width: 100%;
+}
+
+.modal-content {
+    width: 100%;
+}
+
+.modal-header {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.modal-title {
+    margin: 1px 10px;
+    font-size: 150%;
+}
+
+.col-sm p {
+    font-size: 90%;
+    margin-bottom: 0;
+    color: #999;
+}
+
+.col-sm .blk {
+    color: #000;
+}
+
+.col-sm hr {
+    margin: -15px 0;
+}
+
+.legend {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.regularDrinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.regularDrinks h4 {
+    width: 100%;
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.regularDrinks p {
+    margin: 7px;
+}
+.legend img {
+    width: 18px;
+    height: 22px;
+}
+
+.menu img {
+    width: 100%;
+}
+
+.music img {
+    width: 100%;
+}
+.headerStyle {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 4% 0 -1%;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.headerStyle {
+    margin: 25% 0 0;
+}
+.headerStyle h2 {
+    font-size: 500%;
+}
+.otherHeader {
+    margin: 25px 0 0;
+}
+
+
+.breaker {
+    height: 1px; 
+    width: 100%;
+    margin: 20px 40px;
+    background-color: white;
+    color: white;
+}
+
+.infoHolderRight {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 55%;
+    margin-top: -30%;
+}
+
+.bandInfo {
+    margin-top: -42%;
+}
+
+.infoHolderLeft {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: white;
+    margin-right: 55%;
+    margin-top: -30%;
+}
+
+.infoHolder h3 {
+    text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 10px #000;  
+    margin-bottom: 20px;
+}
+
+.infoHolder button {
+    font-size: 125%;
+    padding: 20px;
+}
+
+#warp11Logo {
+    width: 200px;
+}
+
+.bandButton {
+    color: black;
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+/*                 Testimonies             */
+
+.carousel-inner {
+    background-image: url("../img/testBG.jpg");
+}
+
+.carousel-item {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid 8px #ff4800;
+    margin: 3%;
+    width: 94%;
+}
+
+.quote {
+    width: 80px;
+    display: none;
+}
+
+.reviewText {
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 2% 5%;
+    text-align: center;
+    align-items: center;
+}
+
+.carousel-item::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+
+.reviewText h4 {
+    margin-left: 25%;
+}
+
+.avatar {
+    width: 40%;
+    border: solid 8px #ff4800;
+    border-radius: 50%;
+    margin: -3% 1% 1% -3%;
+}
+
+.stars {
+    width: 70%;
+    margin: 0 25%;
+}
+.carousel-control-next-icon {
+    background-image: url("../img/arrow.png");
+    height: 50px;
+    margin-right: -50%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("../img/arrow.png");
+    transform: rotate(180deg);
+    height: 50px;
+    margin-left: -50%;
+}
+
+/*           Clock              */
+
+#clock {
+    font-size: 180%;
+}
+
+.countdownHold {
+    background-image: url("../img/testBG2.jpg");
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 400%;
+    font-family: 'Bebas Neue', sans-serif;
+    flex-wrap: wrap;
+}
+
+.countdownHold img {
+    width: 40%;
+    margin: 0 30%;
+}
+
+.countdownHold p {
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.deals {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    padding: 0 30%;
+}
+
+.deals h3, .deals form {
+    width: 100%;
+    font-size: 200%;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.submit {
+    margin: 10px;
+    width: 80%;
+    padding: 15px;
+    background-color: #ff4800;
+    color: white;
+}
+.email {
+    padding: 10px;
+}
+
+.rightContact {
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.rightContact img {
+    width: 50px;
+    margin: 5px;
+}
+
+.rightContact h6 {
+    margin: 20px;
+}
+
+.leftContact a {
+    text-decoration: none;
+    color: white;
+}
+.leftContact li {
+    text-align: center;
+    justify-content: center;
+    font-size: 200%;
+}
+
+#contact {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 25px;
+}
+
+.otherProjects {
+    font-size: 200%;
+}
+
+
+/*                   Footer                   */
+footer {
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+.modal-dialog {
+    max-width: 800px;
+}
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        font-size: 100%;
+    }
+
+    .quote {
+        display: inline;
+        font-size: 2000%
+    }
+
+    .navbar-nav {
+        display: flex; 
+        justify-content: space-between;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: #bbb;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+    .reviewHold, .countdown {
+        width: 48%;
+    }
+    .bottomContainer {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    #clock {
+        font-size: 90%;
+    }
+    .otherHeader {
+        margin: 0 0 0 0;
+    }
+    .bottomContainer {
+        margin-top: 300px;
+    }
+    .bigHeaderStyle {
+        margin: 0%;
+    }
+    .countdownHold {
+        padding: 10%;
+    }
+
+    .reviewText {
+        font-size: 80%;
+    }
+
+    .carousel-inner{
+       height: 525px;
+    }
+
+    .dealHolder {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+    }
+    .deals, .contact {
+        width: 48%;
+    }
+    .deals {
+        padding: 1%;
+    }
+}

@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>ZeroG Bar</title>
+        <meta name="description" content="The HTML5 Herald">
+        <meta name="author" content="SitePoint">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css?v=1.0">
+    </head>
+
+    <body data-spy="scroll" data-target="#mainNav" data-offset="100">
+        <!--           Header              -->
+        <nav id="mainNav" class="navbar fixed-top navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+              <ul class="navbar-nav nav-pills mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#drinks">Drinks</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#menu">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#music">Music</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#reviews">Reviews</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <!--               Jumbotron            -->
+        <div class="jumbotron">
+            <h1>Welcome to the best bar in the <div class="bolden">galaxy</div></h1>
+            <p>Rated As Such By WestWord Magazine 2021 & 2022</p>
+        </div>
+
+        <!--                 Drinks              -->
+
+        <div class="headerStyle otherHeader">
+            <span class="breaker"></span>
+            <h2 id="drinks">Drinks</h2>
+            <span class="breaker"></span>
+        </div>
+        <div class="drinks">
+            <img id="drinks img-fluid"src="img/drinksBackground.jpg" alt="Drinks Background">
+            <div class="infoHolderRight">
+                <h3>With our far out drinks, specialty high end liquors, and tasty mixes, you'll always hit these shots.</h3>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#drinkModal">
+                    Read Our Drink Menu
+                </button>
+            </div>
+        </div>
+        <!-- Drink Modal -->
+        <div class="modal fade" id="drinkModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="img/STtwirl.png" alt="">
+                        <h5 class="modal-title" id="exampleModalLongTitle">D r i n k s</h5>
+                        <img src="img/STtwirl2.png" alt="">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm">
+                            <strong>Pan Galactic Gargle Blaster</strong><img src="img/trekLogo.png" alt="Star Trek Logo"> <br>
+                            <p class="blk">"So Long, And Thanks For All The Drinks!"</p><br>
+                            <hr><br>
+                            <p>Goldschläger, Fireball Cinnamon Whiskey, Absinth, Jägermeister, St-Germaine & lemon juice</p><br>
+                            <p class="blk"><strong>$9.75</strong></p><br>
+                            <strong>The Spock</strong><br>
+                            <p class="blk">"Highly Logical"</p><br>
+                            <hr><br>
+                            <p>Tequila, Blue Curacao, Lime juice</p><br>
+                            <p class="blk"><strong>$10.75</strong></p><br>
+                            <strong>The Sith lord</strong><br>
+                            <p class="blk">"Experience The Power Of The Dark Side"</p><br>
+                            <hr><br>
+                            <p>Cherry Vodka, Mountain Dew Code: Red</p><br>
+                            <p class="blk"><strong>$8.75</strong></p><br>
+                            <strong>The Cosmos</strong><img src="img/trekLogo.png" alt="Star Trek Logo"> <br>
+                            <p class="blk">"We Are Made Of Star Stuff"</p><br>
+                            <hr><br>
+                            <p>Black Vodka, Lime Juice, Simple syrup, Edible pearl dust</p><br>
+                            <p class="blk"><strong>$11.75</strong></p><br>
+                            </div>  
+
+                            <div class="col-sm">
+                            <strong>Sereni-tea</strong><br>
+                            <p class="blk">"I swear by my pretty floral bonnet, I will drink you."</p><br>
+                            <hr><br>
+                            <p>Firefly sweet tea vodka, Captain Morgan's original spiced rum, Silver tequila, Gin, Sour mix, Sweet tea, Coca Cola & lemon</p><br>
+                            <p class="blk"><strong>$12.75</strong></p><br>           
+                            <strong>Full Moon Martini</strong><img src="img/trekLogo.png" alt="Star Trek Logo"> <br>
+                            <p class="blk">"Drowned in silver moonlight and strangled by her own brassiere."</p><br>
+                            <hr><br>
+                            <p>Coconut cream, Water, Vodka, Blackberries & Sugar</p><br>
+                            <p class="blk"><strong>$11.75</strong></p><br>         
+                            <strong>Slurm</strong><br>
+                            <p class="blk">"Bender's Choice"</p><br>
+                            <hr><br>
+                            <p>Ginger Limeaid, Voda, Club Soda & Food coloring</p><br>
+                            <p class="blk"><strong>$8.75</strong></p><br>         
+                            <strong>The Protomolecule</strong><br>
+                            <p class="blk">"Remember The Cant"</p><br>
+                            <hr><br>
+                            <p>Blue Caracao, White rum, Overproof white rum, Grapefruit juice & Absinthe</p><br>
+                            <p class="blk"><strong>$11.75</strong></p><br>
+                            </div>
+
+                            <div class="col-sm">
+                            <strong>The Voyager I and Voyager II</strong><img src="img/trekLogo.png" alt="Star Trek Logo"> <br>
+                            <p class="blk">"Now, Voyager, sail thou forth, to seek and find."</p><br>
+                            <hr><br>
+                            <p>Lemon Juice, Blue or Orange Curacao, Gin & Vodka</p><br>
+                            <p class="blk"><strong>$10.75</strong></p><br>       
+                            <strong>Mission To Mars</strong><br>
+                            <p class="blk">"I'm going to have to science the shit out of this"</p><br>
+                            <hr><br>
+                            <p>Bourbon, Montenegro, Lmon juice, Simple syrup & Orange bitters</p><br>
+                            <p class="blk"><strong>$12.75</strong></p><br>    
+                            <strong>Vodka Vas Normandy</strong><br>
+                            <p class="blk">With it's own Emergency Induction Port</p><br>
+                            <hr><br>
+                            <p>Parfait Amour, Mandarin Liquour, Vodka and Lemonaid</p><br>
+                            <p class="blk"><strong>$11.75</strong></p><br>    
+                            <strong>The Milky Way</strong><img src="img/trekLogo.png" alt="Star Trek Logo"> <br>
+                            <p class="blk">"I have loved the stars too fondly to be afraid of the night"</p><br>
+                            <hr><br>
+                            <p>Vodka, Kahalua, Heavy cream & Gold schlager</p><br>
+                            <p class="blk"><strong>$10.75</strong></p><br>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="regularDrinks">
+                            <h4>N o n - A l c o h o l i c    D r i n k s</h4>
+                                <p>Coke $2.00</p>
+                                <p>Tea $1.50</p>
+                                <p>Sparkling Water $1.00</p>
+                                <p>Milk $2.00</p>
+                                <p>Orange Juice $2.50</p>
+                                <p>Coffee $2.00</p>
+                                <p>Cappuchino $3.00</p>
+                                <p>Water Free</p>
+                        </div>
+                        <hr>
+                        <div class="legend">
+                            <img src="img/trekLogo.png" alt="Star Trek Logo"> <p>= Avaliable at half price during happy hour</p>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--                 Menu              -->
+
+        <div class="headerStyle">
+            <span class="breaker"></span>
+            <h2 id="menu">Menu</h2>
+            <span class="breaker"></span>
+        </div>
+        <div class="menu">
+            <img id="menu img-fluid"src="img/menuBackground.jpg" alt="Menu Background">
+            <div class="infoHolderLeft">
+                <h3>Classic bar food that always tastes great! The replicator is never on the fritz!</h3>
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#foodModal">
+                    Read Our Menu
+                </button>
+            </div>
+        </div>
+        <!-- Food Modal -->
+        <div class="modal fade" id="foodModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <img src="img/STtwirl.png" alt="">
+                        <h5 class="modal-title" id="exampleModalLongTitle">M e n u</h5>
+                        <img src="img/STtwirl2.png" alt="">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-sm">
+                            <strong>Shared Plates</strong><br>
+                            <p class="blk">Artichokes + Spinach Gratin</p><br>
+                            <p>Creamy cheese sauce with artichokes + spinachserved with fried naan bread</p><br>
+                            <p class="blk"><strong>$10.75</strong></p><br>
+                            <hr><br>
+                            <p class="blk">Sausage Meatballs</p><br>
+                            <p>Sweet and spicy meatballs served with whipped feta + cucumbers</p><br>
+                            <p class="blk"><strong>$11.75</strong></p><br>
+                            <hr><br>
+                            <p class="blk">Corn Dog Bites</p><img src="img/starWarsLogo.png" alt="Star Wars Logo"> <br>
+                            <p>assorted regular + cheese stuffed weiners dripped in our cornbread batter, fried and served with traditional yellow mustard</p><br>
+                            <p class="blk"><strong>$7.75</strong></p><br>
+                            <hr><br>
+                            <p class="blk">Loaded Fries</p><br>
+                            <p>Crispy fries topped with vegan chili, cheddar cheese, sour cream + pickled jalapenos</p><br>
+                            <p class="blk"><strong>$12.75</strong></p><br>
+                            <hr><br>
+                            </div>  
+
+                            <div class="col-sm">
+                            <strong>Entrees</strong><br>
+                            <p class="blk">The Rocinante Burger</p><br>
+                            <p>Fresh ground beef topped with caramalized onions, chipotle cream cheese + fried pickles</p><br>
+                            <p class="blk"><strong>$13.75</strong></p><br> 
+                            <hr><br>          
+                            <p class="blk">USS Enterprise Steak</p><img src="img/starWarsLogo.png" alt="Star Wars Logo"> <br>
+                            <p>A 14" porter house steak served with bacon-wrapped asparagus and gravy, with your choice of mashed potatos or salad</p><br>
+                            <p class="blk"><strong>$14.75</strong></p><br>  
+                            <hr><br>       
+                            <p class="blk">Uhe Pegasus Pasta Plate</p><br>
+                            <p>A plate full of our most delicious pasta foods; angel hair, meatballs, ziti, and fettucinne.</p><br>
+                            <p class="blk"><strong>$11.75</strong></p><br> 
+                            <hr><br>        
+                            <p class="blk">Spaceballs: The Dish</p><img src="img/starWarsLogo.png" alt="Star Wars Logo"><br>
+                            <p>An obvious cash grab, we bring a plate of our freshest air out for you and everyone to enjoy.</p><br>
+                            <p class="blk"><strong>$155.75</strong></p><br>
+                            <hr><br>
+                            </div>
+
+                            <div class="col-sm">
+                            <strong>Seafood</strong><br>
+                            <p class="blk">Prometheus Lobster</p><br>
+                            <p>Delectable lobster cooked fresh from the coasts of Maine. Served with lemon and dipping sauce</p><br>
+                            <p class="blk"><strong>$14.75</strong></p><br>   
+                            <hr><br>    
+                            <p class="blk">Rocinante Crab</p><br>
+                            <p>Gaurenteed fresh crab caught earlier today and brought to you hot and fresh</p><br>
+                            <p class="blk"><strong>$12.75</strong></p><br>   
+                            <hr><br>
+                            <p class="blk">Heart Of Gold Clams</p><br>
+                            <p>Clams served on the half shell served on a nice rice bowl</p><br>
+                            <p class="blk"><strong>$11.75</strong></p><br>   
+                            <hr><br> 
+                            <p class="blk">Icarus Paella</p><br>
+                            <p>Clams, Lobster and shrimp all served on brown rice with peas</p><br>
+                            <p class="blk"><strong>$14.75</strong></p><br>
+                            <hr><br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                            <strong>Sides</strong><br>
+                            <p class="blk">Onion Rings</p><br>
+                            <p>Fresh cut onions dipped in our batter and garlic flour, deep fried to golden goodness</p><br>
+                            <p class="blk"><strong>$8.75</strong></p><br>
+                            <hr><br>
+                            <p class="blk">Cheese Balls</p><img src="img/starWarsLogo.png" alt="Star Wars Logo"> <br>
+                            <p>Maozzerella balls deep fried and served with our classi marinera</p><br>
+                            <p class="blk"><strong>$8.75</strong></p><br>
+                            <hr><br>
+                            <p class="blk">Mac N' Cheese</p><br>
+                            <p>The classic Mac N' Cheese served hot and fresh with bits of bacon and a little bit of spice</p><br>
+                            <p class="blk"><strong>$9.75</strong></p><br>
+                            <hr><br>
+                            <p class="blk">Mashed Potatos</p><br>
+                            <p>Potatos served hot and ready, mashed with bits of potato skin and bacon. Served with gravy.</p><br>
+                            <p class="blk"><strong>$6.75</strong></p><br>
+                            </div>  
+
+                            <div class="col-sm">
+                            <strong>Chicken</strong><br>
+                            <p class="blk">Chicken Nuggets</p><br>
+                            <p>Chicken served bite sized, deep fried and served with your choice of honey mustard, ranch, or ketchup</p><br>
+                            <p class="blk"><strong>$7.75</strong></p><br> 
+                            <hr><br>          
+                            <p class="blk">Chicken Fingers</p><img src="img/starWarsLogo.png" alt="Star Wars Logo"> <br>
+                            <p>Your choice of three, five or seven strips of chicken Make it a meal with some fries!</p><br>
+                            <p class="blk"><strong>$8.75 / $10.75 / $12.75</strong></p><br>  
+                            <hr><br>       
+                            <p class="blk">Chicken Wrap</p><br>
+                            <p>Fresh cooked chicken served in a hot flour tortilla with guac, pico de gallo and cheese</p><br>
+                            <p class="blk"><strong>$12.75</strong></p><br> 
+                            <hr><br>        
+                            <p class="blk">Honey Garlic Chicken</p><br>
+                            <p>Chicken drizzled in our honey garlic sauce, with your choice of mild, spicy, and caliente</p><br>
+                            <p class="blk"><strong>$13.75</strong></p><br>
+                            </div>
+
+                            <div class="col-sm">
+                            <strong>Space Junk</strong><br>
+                            <p class="blk">Tower Of Nachos</p><img src="img/starWarsLogo.png" alt="Star Wars Logo"> <br>
+                            <hr><br>
+                            <p>Nachos piled high and topped with olive, cheese, guac, onion and hot sauce</p><br>
+                            <p class="blk"><strong>$12.75</strong></p><br>       
+                            <p class="blk">Poutine</p><img src="img/starWarsLogo.png" alt="Star Wars Logo"> <br>
+                            <hr><br>
+                            <p>Fries covered in cheese curds and gravy, a Canadian staple</p><br>
+                            <p class="blk"><strong>$10.75</strong></p><br>   
+                            <p class="blk">Sliders</p><br>
+                            <hr><br>
+                            <p>Look at them! They're like tiny burgers! Served with tomato, pickle, onion and lettuce.</p><br>
+                            <p class="blk"><strong>$4.75 Each</strong></p><br>    
+                            <p class="blk">Kids Meal</p><br>
+                            <hr>A burger or chicken fingers served with fries and a juice or milk<br>
+                            <p></p><br>
+                            <p class="blk"><strong>$10.75</strong></p><br>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="legend">
+                            <img src="img/starWarsLogo.png" alt="Star Wars Logo"> <p>= Avaliable at half price during happy hour</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--               Music                 -->
+
+        <div class="headerStyle">
+            <span class="breaker"></span>
+            <h2 id="music">Music</h2>
+            <span class="breaker"></span>
+        </div>
+        <div class="music">
+            <img id="drinks img-fluid"src="img/entertainmentBackground.jpg" alt="Band Background">
+            <div class="infoHolderRight bandInfo">
+                <img src="img/warp11Logo.png" id="warp11Logo"  alt="Warp Eleven Logo">
+                <h3>Star Trek cover band <strong>Warp 11</strong> will be joining us on our live stage this upcoming Thursday! </h3>
+                <a class="bandButton" href="http://warp11.com/">Check 'Em Out!</a>
+            </div>
+        </div>
+
+        <!--                Reviews and Countdown Section            -->
+        <div class="bottomContainer">
+            <!--                 Reviews             -->
+            <div class="reviewHold">
+                <div class="headerStyle bigHeaderStyle">
+                    <span class="breaker"></span>
+                    <h2 id="reviews">Reviews</h2>
+                    <span class="breaker"></span>
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <span class="d-block w-100">
+                            <img class="avatar" src="img/avatar.jpg" alt="Profile Pic">
+                            <div class="reviewText">
+                                <img class="quote" src="img/quote.png" alt="">
+                                <h3>Zero-G is my favorite bars in town, I always get awesome drinks, the atmosphere is amazing, 
+                                    oand it's perfect for a good time</h3>
+                                <h4><strong><i>-Danny M Derock</i></strong></h4>
+                                <img class="stars" src="img/45stars.png" alt="">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="d-block w-100" >
+                            <img class="avatar" src="img/avatar2.jpg" alt="Profile Pic">
+                            <div class="reviewText">
+                                <img class="quote" src="img/quote.png" alt="">
+                                <h3>Drinks are little on the nose, but the atmosphere is great and the bartenders are always so kind and cool. </h3>
+                                <h4><strong><i>-Alice Ng</i></strong></h4>
+                                <img class="stars" src="img/4stars.png" alt="">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <span class="d-block w-100" >
+                            <img class="avatar" src="img/avatar3.jpg" alt="Profile Pic">
+                            <div class="reviewText">
+                                <img class="quote" src="img/quote.png" alt="">
+                                <h3>I love this bar! Always get to do my cosplays here and find watch groups. Five Stars!</h3>
+                                <h4><strong><i>-Benjamin Corswell</i></strong></h4>
+                                <img class="stars" src="img/5stars.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <!--               Countdown                -->
+            <div class="countdown">
+                <div class="headerStyle otherHeader bigHeaderStyle">
+                    <span class="breaker"></span>
+                    <h2>Countdown</h2>
+                    <span class="breaker"></span>
+                </div>
+                <div class="countdownHold">
+                    <p id="clock"></p>
+                    <p>Days Until The<br> Debut Of</p>
+                    <img class="0G2" alt="Planet Icon" src="img/0G2.png">
+                </div>
+            </div>
+        </div>
+
+        <!--                 Contact Form and Links                  -->
+        <div class="contactHolder">
+            <div class="headerStyle otherHeader">
+                <span class="breaker"></span>
+                <h2>Contact</h2>
+                <span class="breaker"></span>
+            </div>
+            <div class="dealHolder">
+                <div class="deals">
+                    <h3>Sign Up For Our Weekly Email and Special Deals!</h3>
+                    <form name="myform"  method="post" action="#" onsubmit="return validateemail();">  
+                    Email: <br>
+                    <input type="text" class="email" placeholder="Your Email Here..." name="email"><br/>    
+                    <input class="submit" type="submit" value="Submit">  
+                </div>
+
+                <div class="contact">
+                    <h3 id="contact">Contact Me!</h3>
+                    <div class="leftContact">
+                        <ul>
+                            <li><a href="mailto:johnsawebdev@gmail.com">Email</a></li>
+                            <li><a href="https://www.linkedin.com/in/john-lovato-4295b3199/">LinkedIn</a></li>
+                            <li><a href="https://www.github.com/jtlovato">Github</a></li>
+                            <li><a href="https:www.johntlovato.myportfolio.com">Design Portfolio</a></li>
+                        </ul>
+                    </div>
+                    <div class="rightContact">
+                        <h6 class="otherProjects">My Other Projects</h6>
+                        <a href="#" target="_blank">
+                            <img src="img/mask.svg" alt="Mask icon">
+                        </a>
+                        <a href="#" target="_blank"> 
+                            <img src="img/jtl.svg" alt="Home Icon" >
+                        </a>
+                        <a href="#" target="_blank">
+                        <img src="img/cover.svg" alt="Cover Icon">
+                        </a>
+                        <a href="#" target="_blank">
+                        <img src="img/honee.svg" alt="Honee Icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="bottomFooter">
+                <a href="https://www.termsfeed.com/blog/sample-terms-and-conditions-template/">Terms And Conditions</a>
+                <a href="https://www.termsfeed.com/blog/sample-privacy-policy-template/">Privacy Policy</a>
+            </div>
+            <p>&#169; 2020 John Lovato</p>
+        </footer>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    </body>
+</html>
