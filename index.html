@@ -45,7 +45,7 @@
         </nav>
         <!--               Jumbotron            -->
         <div class="jumbotron">
-            <h1>Welcome to the best bar in the <div class="bolden">galaxy</div></h1>
+            <h1>Welcome to the best bar in the <span class="bolden">galaxy</span></h1>
             <p>Rated As Such By WestWord Magazine 2021 & 2022</p>
         </div>
 
@@ -53,11 +53,11 @@
 
         <div class="headerStyle otherHeader">
             <span class="breaker"></span>
-            <h2 id="drinks">Drinks</h2>
+            <h2>Drinks</h2>
             <span class="breaker"></span>
         </div>
         <div class="drinks">
-            <img id="drinks img-fluid"src="img/drinksBackground.jpg" alt="Drinks Background">
+            <img id="drinks" src="img/drinksBackground.jpg" alt="Drinks Background">
             <div class="infoHolderRight">
                 <h3>With our far out drinks, specialty high end liquors, and tasty mixes, you'll always hit these shots.</h3>
                 <button type="button" class="btn btn-light" data-toggle="modal" data-target="#drinkModal">
@@ -66,12 +66,12 @@
             </div>
         </div>
         <!-- Drink Modal -->
-        <div class="modal fade" id="drinkModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal fade" id="drinkModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <img src="img/STtwirl.png" alt="">
-                        <h5 class="modal-title" id="exampleModalLongTitle">D r i n k s</h5>
+                        <h5 class="modal-title" >D r i n k s</h5>
                         <img src="img/STtwirl2.png" alt="">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
@@ -174,11 +174,11 @@
 
         <div class="headerStyle">
             <span class="breaker"></span>
-            <h2 id="menu">Menu</h2>
+            <h2>Menu</h2>
             <span class="breaker"></span>
         </div>
         <div class="menu">
-            <img id="menu img-fluid"src="img/menuBackground.jpg" alt="Menu Background">
+            <img id="menu" src="img/menuBackground.jpg" alt="Menu Background">
             <div class="infoHolderLeft">
                 <h3>Classic bar food that always tastes great! The replicator is never on the fritz!</h3>
                 <button type="button" class="btn btn-light" data-toggle="modal" data-target="#foodModal">
@@ -187,12 +187,12 @@
             </div>
         </div>
         <!-- Food Modal -->
-        <div class="modal fade" id="foodModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal fade" id="foodModal" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <img src="img/STtwirl.png" alt="">
-                        <h5 class="modal-title" id="exampleModalLongTitle">M e n u</h5>
+                        <h5 class="modal-title">M e n u</h5>
                         <img src="img/STtwirl2.png" alt="">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
@@ -337,7 +337,7 @@
             <span class="breaker"></span>
         </div>
         <div class="music">
-            <img id="drinks img-fluid"src="img/entertainmentBackground.jpg" alt="Band Background">
+            <img src="img/entertainmentBackground.jpg" alt="Band Background">
             <div class="infoHolderRight bandInfo">
                 <img src="img/warp11Logo.png" id="warp11Logo"  alt="Warp Eleven Logo">
                 <h3>Star Trek cover band <strong>Warp 11</strong> will be joining us on our live stage this upcoming Thursday! </h3>
@@ -357,7 +357,7 @@
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <span class="d-block w-100">
+                            <span class="d-block w-100"></span>
                             <img class="avatar" src="img/avatar.jpg" alt="Profile Pic">
                             <div class="reviewText">
                                 <img class="quote" src="img/quote.png" alt="">
@@ -368,7 +368,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <span class="d-block w-100" >
+                            <span class="d-block w-100" ></span>
                             <img class="avatar" src="img/avatar2.jpg" alt="Profile Pic">
                             <div class="reviewText">
                                 <img class="quote" src="img/quote.png" alt="">
@@ -378,7 +378,7 @@
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <span class="d-block w-100" >
+                            <span class="d-block w-100" ></span>
                             <img class="avatar" src="img/avatar3.jpg" alt="Profile Pic">
                             <div class="reviewText">
                                 <img class="quote" src="img/quote.png" alt="">
@@ -424,9 +424,10 @@
                 <div class="deals">
                     <h3>Sign Up For Our Weekly Email and Special Deals!</h3>
                     <form name="myform"  method="post" action="#" onsubmit="return validateemail();">  
-                    Email: <br>
-                    <input type="text" class="email" placeholder="Your Email Here..." name="email"><br/>    
-                    <input class="submit" type="submit" value="Submit">  
+                        Email: <br>
+                        <input type="text" class="email" placeholder="Your Email Here..." name="email"><br/>    
+                        <input class="submit" type="submit" value="Submit">  
+                    </form>
                 </div>
 
                 <div class="contact">
@@ -436,7 +437,7 @@
                             <li><a href="mailto:johnsawebdev@gmail.com">Email</a></li>
                             <li><a href="https://www.linkedin.com/in/john-lovato-4295b3199/">LinkedIn</a></li>
                             <li><a href="https://www.github.com/jtlovato">Github</a></li>
-                            <li><a href="https:www.johntlovato.myportfolio.com">Design Portfolio</a></li>
+                            <li><a href="https://www.johntlovato.myportfolio.com">Design Portfolio</a></li>
                         </ul>
                     </div>
                     <div class="rightContact">
@@ -464,7 +465,6 @@
             </div>
             <p>&#169; 2020 John Lovato</p>
         </footer>
-    </body>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
